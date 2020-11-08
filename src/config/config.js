@@ -15,7 +15,7 @@ const config = {
   },
   db: {
     host: 'localhost',
-    username: username,
+    user: username,
     password: passwordDb,
     database: db,
     port: dbPort,

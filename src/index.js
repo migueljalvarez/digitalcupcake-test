@@ -21,6 +21,6 @@ sequelize
     })
   })
   .catch((err) => {
-    console.Error(err)
+    console.error(err)
     throw new Error('PROBLEM_IN_DB')
   })
