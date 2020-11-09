@@ -6,7 +6,6 @@
   "author": "Miguel Alvarez <ing.migueljalvarez@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "jest --verbose src/*/*.test.js --detectOpenHandles",
     "start": "babel-node src/index.js",
     "dev": "nodemon src/index.js --exec babel-node",
     "lint": "eslint ./src/*/*.js",
